@@ -1,0 +1,1 @@
+# Sample app demonstrating usage of RealtimeKit's flutter core SDK
