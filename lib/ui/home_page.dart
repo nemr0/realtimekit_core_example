@@ -118,16 +118,16 @@ class _HomePageState extends ConsumerState<HomePage> {
   }
 
   void listenToAllListeners(WidgetRef ref) {
-    // ref.listen(roomEventNotifier, (previous, next) {});
-    // ref.listen(localUserSettingsProvider, (previous, next) {});
-    // ref.listen(participantEventNotifier, (previous, next) {});
-    // ref.listen(chatNotifier, (previous, next) {});
-    // ref.listen(screenshareProvider, (previous, next) {});
-    // ref.listen(recordingNotifier, (previous, next) {});
-    // ref.listen(pluginProvider, (previous, next) {});
-    // ref.listen(waitingRoomNotifier, (previous, next) {});
-    // ref.listen(newPollEventNotifier, (previous, next) {});
-    // ref.listen(pollsListNotifier, (previous, next) {});
+    ref.listen(roomEventNotifier, (previous, next) {});
+    ref.listen(localUserSettingsProvider, (previous, next) {});
+    ref.listen(participantEventNotifier, (previous, next) {});
+    ref.listen(chatNotifier, (previous, next) {});
+    ref.listen(screenshareProvider, (previous, next) {});
+    ref.listen(recordingNotifier, (previous, next) {});
+    ref.listen(pluginProvider, (previous, next) {});
+    ref.listen(waitingRoomNotifier, (previous, next) {});
+    ref.listen(newPollEventNotifier, (previous, next) {});
+    ref.listen(pollsListNotifier, (previous, next) {});
   }
 
   void attachAllListeners(WidgetRef ref) {
