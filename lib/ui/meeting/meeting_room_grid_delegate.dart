@@ -1,6 +1,6 @@
 import 'package:flutter/rendering.dart';
 
-class DyteActiveParticipantGridDelegate extends SliverGridDelegate {
+class RealtimeKitActiveParticipantGridDelegate extends SliverGridDelegate {
   final int activeParticipantCount;
   final double crossAxisSpacing;
   final double mainAxisSpacing;
@@ -8,7 +8,7 @@ class DyteActiveParticipantGridDelegate extends SliverGridDelegate {
   late final int crossAxisCount;
   late final int mainAxisCount;
 
-  DyteActiveParticipantGridDelegate({
+  RealtimeKitActiveParticipantGridDelegate({
     required this.activeParticipantCount,
     required this.crossAxisSpacing,
     required this.mainAxisSpacing,
@@ -79,7 +79,7 @@ class DyteActiveParticipantGridDelegate extends SliverGridDelegate {
   }
 
   @override
-  bool shouldRelayout(covariant DyteActiveParticipantGridDelegate oldDelegate) {
+  bool shouldRelayout(covariant RealtimeKitActiveParticipantGridDelegate oldDelegate) {
     return oldDelegate.activeParticipantCount != activeParticipantCount ||
         oldDelegate.crossAxisSpacing != crossAxisSpacing ||
         oldDelegate.mainAxisSpacing != mainAxisSpacing ||

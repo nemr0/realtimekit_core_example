@@ -7,7 +7,7 @@ class PinNotifier extends Notifier<RtkRemoteParticipant?>
     implements RtkParticipantsEventListener {
   @override
   void onParticipantPinned(RtkRemoteParticipant participant) {
-    log('onParticipantPinned: ${participant.id}', name: 'DyteClient');
+    log('onParticipantPinned: ${participant.id}', name: 'RealtimeKitClient');
     state = participant;
   }
 

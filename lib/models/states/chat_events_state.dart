@@ -4,10 +4,10 @@ import 'package:realtimekit_core/realtimekit_core.dart';
 part 'chat_events_state.freezed.dart';
 
 @freezed
-abstract class DyteChatStates with _$DyteChatStates {
-  const factory DyteChatStates.initial() = _DyteChatStates;
-  const factory DyteChatStates.onNewChatUpdate(ChatMessage message) =
-      _DyteChatStatesNewChat;
-  const factory DyteChatStates.onChatUpdates(List<ChatMessage> messages) =
-      _DyteChatStatesChatUpdates;
+abstract class RealtimeKitChatStates with _$RealtimeKitChatStates {
+  const factory RealtimeKitChatStates.initial() = _RealtimeKitChatStates;
+  const factory RealtimeKitChatStates.onNewChatUpdate(ChatMessage message) =
+      _RealtimeKitChatStatesNewChat;
+  const factory RealtimeKitChatStates.onChatUpdates(List<ChatMessage> messages) =
+      _RealtimeKitChatStatesChatUpdates;
 }

@@ -66,7 +66,7 @@ class _HomePageState extends ConsumerState<HomePage> {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => const DyteMeetingRoom(),
+              builder: (context) => const RealtimeKitMeetingRoom(),
             ),
           );
           break;
@@ -90,7 +90,7 @@ class _HomePageState extends ConsumerState<HomePage> {
       }
     });
     return Scaffold(
-      appBar: const DyteAppBar(),
+      appBar: const RealtimeKitAppBar(),
       body: Center(child: _meetingDetails()),
     );
   }
@@ -108,7 +108,7 @@ class _HomePageState extends ConsumerState<HomePage> {
         },
         minWidth: 180,
         height: 45,
-        color: DyteColors.primary,
+        color: RealtimeKitColors.primary,
         child: const Text(
           "Join Meeting",
           style: TextStyle(fontSize: 16),

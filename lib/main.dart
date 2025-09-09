@@ -22,13 +22,13 @@ class RealtimeKitSampleApp extends StatelessWidget {
     final theme = ThemeData.dark();
     return MaterialApp(
       theme: theme.copyWith(
-        scaffoldBackgroundColor: DyteColors.background,
-        primaryColor: DyteColors.primary,
+        scaffoldBackgroundColor: RealtimeKitColors.background,
+        primaryColor: RealtimeKitColors.primary,
         colorScheme: theme.colorScheme
             .copyWith(
-              secondary: DyteColors.primary,
+              secondary: RealtimeKitColors.primary,
             )
-            .copyWith(surface: DyteColors.background),
+            .copyWith(surface: RealtimeKitColors.background),
       ),
       home: const HomePage(),
     );

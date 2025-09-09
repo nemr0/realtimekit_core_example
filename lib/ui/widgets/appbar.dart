@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-class DyteAppBar extends StatelessWidget implements PreferredSizeWidget {
-  const DyteAppBar({
+class RealtimeKitAppBar extends StatelessWidget implements PreferredSizeWidget {
+  const RealtimeKitAppBar({
     super.key,
     this.action,
   });

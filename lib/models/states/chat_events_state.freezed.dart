@@ -15,7 +15,7 @@ final _privateConstructorUsedError = UnsupportedError(
     'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
 /// @nodoc
-mixin _$DyteChatStates {
+mixin _$RealtimeKitChatStates {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function() initial,
@@ -40,82 +40,82 @@ mixin _$DyteChatStates {
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(_DyteChatStates value) initial,
-    required TResult Function(_DyteChatStatesNewChat value) onNewChatUpdate,
-    required TResult Function(_DyteChatStatesChatUpdates value) onChatUpdates,
+    required TResult Function(_RealtimeKitChatStates value) initial,
+    required TResult Function(_RealtimeKitChatStatesNewChat value) onNewChatUpdate,
+    required TResult Function(_RealtimeKitChatStatesChatUpdates value) onChatUpdates,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(_DyteChatStates value)? initial,
-    TResult? Function(_DyteChatStatesNewChat value)? onNewChatUpdate,
-    TResult? Function(_DyteChatStatesChatUpdates value)? onChatUpdates,
+    TResult? Function(_RealtimeKitChatStates value)? initial,
+    TResult? Function(_RealtimeKitChatStatesNewChat value)? onNewChatUpdate,
+    TResult? Function(_RealtimeKitChatStatesChatUpdates value)? onChatUpdates,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(_DyteChatStates value)? initial,
-    TResult Function(_DyteChatStatesNewChat value)? onNewChatUpdate,
-    TResult Function(_DyteChatStatesChatUpdates value)? onChatUpdates,
+    TResult Function(_RealtimeKitChatStates value)? initial,
+    TResult Function(_RealtimeKitChatStatesNewChat value)? onNewChatUpdate,
+    TResult Function(_RealtimeKitChatStatesChatUpdates value)? onChatUpdates,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $DyteChatStatesCopyWith<$Res> {
-  factory $DyteChatStatesCopyWith(
-          DyteChatStates value, $Res Function(DyteChatStates) then) =
-      _$DyteChatStatesCopyWithImpl<$Res, DyteChatStates>;
+abstract class $RealtimeKitChatStatesCopyWith<$Res> {
+  factory $RealtimeKitChatStatesCopyWith(
+          RealtimeKitChatStates value, $Res Function(RealtimeKitChatStates) then) =
+      _$RealtimeKitChatStatesCopyWithImpl<$Res, RealtimeKitChatStates>;
 }
 
 /// @nodoc
-class _$DyteChatStatesCopyWithImpl<$Res, $Val extends DyteChatStates>
-    implements $DyteChatStatesCopyWith<$Res> {
-  _$DyteChatStatesCopyWithImpl(this._value, this._then);
+class _$RealtimeKitChatStatesCopyWithImpl<$Res, $Val extends RealtimeKitChatStates>
+    implements $RealtimeKitChatStatesCopyWith<$Res> {
+  _$RealtimeKitChatStatesCopyWithImpl(this._value, this._then);
 
   // ignore: unused_field
   final $Val _value;
   // ignore: unused_field
   final $Res Function($Val) _then;
 
-  /// Create a copy of DyteChatStates
+  /// Create a copy of RealtimeKitChatStates
   /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
-abstract class _$$DyteChatStatesImplCopyWith<$Res> {
-  factory _$$DyteChatStatesImplCopyWith(_$DyteChatStatesImpl value,
-          $Res Function(_$DyteChatStatesImpl) then) =
-      __$$DyteChatStatesImplCopyWithImpl<$Res>;
+abstract class _$$RealtimeKitChatStatesImplCopyWith<$Res> {
+  factory _$$RealtimeKitChatStatesImplCopyWith(_$RealtimeKitChatStatesImpl value,
+          $Res Function(_$RealtimeKitChatStatesImpl) then) =
+      __$$RealtimeKitChatStatesImplCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$$DyteChatStatesImplCopyWithImpl<$Res>
-    extends _$DyteChatStatesCopyWithImpl<$Res, _$DyteChatStatesImpl>
-    implements _$$DyteChatStatesImplCopyWith<$Res> {
-  __$$DyteChatStatesImplCopyWithImpl(
-      _$DyteChatStatesImpl _value, $Res Function(_$DyteChatStatesImpl) _then)
+class __$$RealtimeKitChatStatesImplCopyWithImpl<$Res>
+    extends _$RealtimeKitChatStatesCopyWithImpl<$Res, _$RealtimeKitChatStatesImpl>
+    implements _$$RealtimeKitChatStatesImplCopyWith<$Res> {
+  __$$RealtimeKitChatStatesImplCopyWithImpl(
+      _$RealtimeKitChatStatesImpl _value, $Res Function(_$RealtimeKitChatStatesImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of DyteChatStates
+  /// Create a copy of RealtimeKitChatStates
   /// with the given fields replaced by the non-null parameter values.
 }
 
 /// @nodoc
 
-class _$DyteChatStatesImpl implements _DyteChatStates {
-  const _$DyteChatStatesImpl();
+class _$RealtimeKitChatStatesImpl implements _RealtimeKitChatStates {
+  const _$RealtimeKitChatStatesImpl();
 
   @override
   String toString() {
-    return 'DyteChatStates.initial()';
+    return 'RealtimeKitChatStates.initial()';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$DyteChatStatesImpl);
+        (other.runtimeType == runtimeType && other is _$RealtimeKitChatStatesImpl);
   }
 
   @override
@@ -158,9 +158,9 @@ class _$DyteChatStatesImpl implements _DyteChatStates {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(_DyteChatStates value) initial,
-    required TResult Function(_DyteChatStatesNewChat value) onNewChatUpdate,
-    required TResult Function(_DyteChatStatesChatUpdates value) onChatUpdates,
+    required TResult Function(_RealtimeKitChatStates value) initial,
+    required TResult Function(_RealtimeKitChatStatesNewChat value) onNewChatUpdate,
+    required TResult Function(_RealtimeKitChatStatesChatUpdates value) onChatUpdates,
   }) {
     return initial(this);
   }
@@ -168,9 +168,9 @@ class _$DyteChatStatesImpl implements _DyteChatStates {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(_DyteChatStates value)? initial,
-    TResult? Function(_DyteChatStatesNewChat value)? onNewChatUpdate,
-    TResult? Function(_DyteChatStatesChatUpdates value)? onChatUpdates,
+    TResult? Function(_RealtimeKitChatStates value)? initial,
+    TResult? Function(_RealtimeKitChatStatesNewChat value)? onNewChatUpdate,
+    TResult? Function(_RealtimeKitChatStatesChatUpdates value)? onChatUpdates,
   }) {
     return initial?.call(this);
   }
@@ -178,9 +178,9 @@ class _$DyteChatStatesImpl implements _DyteChatStates {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(_DyteChatStates value)? initial,
-    TResult Function(_DyteChatStatesNewChat value)? onNewChatUpdate,
-    TResult Function(_DyteChatStatesChatUpdates value)? onChatUpdates,
+    TResult Function(_RealtimeKitChatStates value)? initial,
+    TResult Function(_RealtimeKitChatStatesNewChat value)? onNewChatUpdate,
+    TResult Function(_RealtimeKitChatStatesChatUpdates value)? onChatUpdates,
     required TResult orElse(),
   }) {
     if (initial != null) {
@@ -190,36 +190,36 @@ class _$DyteChatStatesImpl implements _DyteChatStates {
   }
 }
 
-abstract class _DyteChatStates implements DyteChatStates {
-  const factory _DyteChatStates() = _$DyteChatStatesImpl;
+abstract class _RealtimeKitChatStates implements RealtimeKitChatStates {
+  const factory _RealtimeKitChatStates() = _$RealtimeKitChatStatesImpl;
 }
 
 /// @nodoc
-abstract class _$$DyteChatStatesNewChatImplCopyWith<$Res> {
-  factory _$$DyteChatStatesNewChatImplCopyWith(
-          _$DyteChatStatesNewChatImpl value,
-          $Res Function(_$DyteChatStatesNewChatImpl) then) =
-      __$$DyteChatStatesNewChatImplCopyWithImpl<$Res>;
+abstract class _$$RealtimeKitChatStatesNewChatImplCopyWith<$Res> {
+  factory _$$RealtimeKitChatStatesNewChatImplCopyWith(
+          _$RealtimeKitChatStatesNewChatImpl value,
+          $Res Function(_$RealtimeKitChatStatesNewChatImpl) then) =
+      __$$RealtimeKitChatStatesNewChatImplCopyWithImpl<$Res>;
   @useResult
   $Res call({ChatMessage message});
 }
 
 /// @nodoc
-class __$$DyteChatStatesNewChatImplCopyWithImpl<$Res>
-    extends _$DyteChatStatesCopyWithImpl<$Res, _$DyteChatStatesNewChatImpl>
-    implements _$$DyteChatStatesNewChatImplCopyWith<$Res> {
-  __$$DyteChatStatesNewChatImplCopyWithImpl(_$DyteChatStatesNewChatImpl _value,
-      $Res Function(_$DyteChatStatesNewChatImpl) _then)
+class __$$RealtimeKitChatStatesNewChatImplCopyWithImpl<$Res>
+    extends _$RealtimeKitChatStatesCopyWithImpl<$Res, _$RealtimeKitChatStatesNewChatImpl>
+    implements _$$RealtimeKitChatStatesNewChatImplCopyWith<$Res> {
+  __$$RealtimeKitChatStatesNewChatImplCopyWithImpl(_$RealtimeKitChatStatesNewChatImpl _value,
+      $Res Function(_$RealtimeKitChatStatesNewChatImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of DyteChatStates
+  /// Create a copy of RealtimeKitChatStates
   /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? message = null,
   }) {
-    return _then(_$DyteChatStatesNewChatImpl(
+    return _then(_$RealtimeKitChatStatesNewChatImpl(
       null == message
           ? _value.message
           : message // ignore: cast_nullable_to_non_nullable
@@ -230,36 +230,36 @@ class __$$DyteChatStatesNewChatImplCopyWithImpl<$Res>
 
 /// @nodoc
 
-class _$DyteChatStatesNewChatImpl implements _DyteChatStatesNewChat {
-  const _$DyteChatStatesNewChatImpl(this.message);
+class _$RealtimeKitChatStatesNewChatImpl implements _RealtimeKitChatStatesNewChat {
+  const _$RealtimeKitChatStatesNewChatImpl(this.message);
 
   @override
   final ChatMessage message;
 
   @override
   String toString() {
-    return 'DyteChatStates.onNewChatUpdate(message: $message)';
+    return 'RealtimeKitChatStates.onNewChatUpdate(message: $message)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$DyteChatStatesNewChatImpl &&
+            other is _$RealtimeKitChatStatesNewChatImpl &&
             (identical(other.message, message) || other.message == message));
   }
 
   @override
   int get hashCode => Object.hash(runtimeType, message);
 
-  /// Create a copy of DyteChatStates
+  /// Create a copy of RealtimeKitChatStates
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
-  _$$DyteChatStatesNewChatImplCopyWith<_$DyteChatStatesNewChatImpl>
-      get copyWith => __$$DyteChatStatesNewChatImplCopyWithImpl<
-          _$DyteChatStatesNewChatImpl>(this, _$identity);
+  _$$RealtimeKitChatStatesNewChatImplCopyWith<_$RealtimeKitChatStatesNewChatImpl>
+      get copyWith => __$$RealtimeKitChatStatesNewChatImplCopyWithImpl<
+          _$RealtimeKitChatStatesNewChatImpl>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -298,9 +298,9 @@ class _$DyteChatStatesNewChatImpl implements _DyteChatStatesNewChat {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(_DyteChatStates value) initial,
-    required TResult Function(_DyteChatStatesNewChat value) onNewChatUpdate,
-    required TResult Function(_DyteChatStatesChatUpdates value) onChatUpdates,
+    required TResult Function(_RealtimeKitChatStates value) initial,
+    required TResult Function(_RealtimeKitChatStatesNewChat value) onNewChatUpdate,
+    required TResult Function(_RealtimeKitChatStatesChatUpdates value) onChatUpdates,
   }) {
     return onNewChatUpdate(this);
   }
@@ -308,9 +308,9 @@ class _$DyteChatStatesNewChatImpl implements _DyteChatStatesNewChat {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(_DyteChatStates value)? initial,
-    TResult? Function(_DyteChatStatesNewChat value)? onNewChatUpdate,
-    TResult? Function(_DyteChatStatesChatUpdates value)? onChatUpdates,
+    TResult? Function(_RealtimeKitChatStates value)? initial,
+    TResult? Function(_RealtimeKitChatStatesNewChat value)? onNewChatUpdate,
+    TResult? Function(_RealtimeKitChatStatesChatUpdates value)? onChatUpdates,
   }) {
     return onNewChatUpdate?.call(this);
   }
@@ -318,9 +318,9 @@ class _$DyteChatStatesNewChatImpl implements _DyteChatStatesNewChat {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(_DyteChatStates value)? initial,
-    TResult Function(_DyteChatStatesNewChat value)? onNewChatUpdate,
-    TResult Function(_DyteChatStatesChatUpdates value)? onChatUpdates,
+    TResult Function(_RealtimeKitChatStates value)? initial,
+    TResult Function(_RealtimeKitChatStatesNewChat value)? onNewChatUpdate,
+    TResult Function(_RealtimeKitChatStatesChatUpdates value)? onChatUpdates,
     required TResult orElse(),
   }) {
     if (onNewChatUpdate != null) {
@@ -330,46 +330,46 @@ class _$DyteChatStatesNewChatImpl implements _DyteChatStatesNewChat {
   }
 }
 
-abstract class _DyteChatStatesNewChat implements DyteChatStates {
-  const factory _DyteChatStatesNewChat(final ChatMessage message) =
-      _$DyteChatStatesNewChatImpl;
+abstract class _RealtimeKitChatStatesNewChat implements RealtimeKitChatStates {
+  const factory _RealtimeKitChatStatesNewChat(final ChatMessage message) =
+      _$RealtimeKitChatStatesNewChatImpl;
 
   ChatMessage get message;
 
-  /// Create a copy of DyteChatStates
+  /// Create a copy of RealtimeKitChatStates
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$DyteChatStatesNewChatImplCopyWith<_$DyteChatStatesNewChatImpl>
+  _$$RealtimeKitChatStatesNewChatImplCopyWith<_$RealtimeKitChatStatesNewChatImpl>
       get copyWith => throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class _$$DyteChatStatesChatUpdatesImplCopyWith<$Res> {
-  factory _$$DyteChatStatesChatUpdatesImplCopyWith(
-          _$DyteChatStatesChatUpdatesImpl value,
-          $Res Function(_$DyteChatStatesChatUpdatesImpl) then) =
-      __$$DyteChatStatesChatUpdatesImplCopyWithImpl<$Res>;
+abstract class _$$RealtimeKitChatStatesChatUpdatesImplCopyWith<$Res> {
+  factory _$$RealtimeKitChatStatesChatUpdatesImplCopyWith(
+          _$RealtimeKitChatStatesChatUpdatesImpl value,
+          $Res Function(_$RealtimeKitChatStatesChatUpdatesImpl) then) =
+      __$$RealtimeKitChatStatesChatUpdatesImplCopyWithImpl<$Res>;
   @useResult
   $Res call({List<ChatMessage> messages});
 }
 
 /// @nodoc
-class __$$DyteChatStatesChatUpdatesImplCopyWithImpl<$Res>
-    extends _$DyteChatStatesCopyWithImpl<$Res, _$DyteChatStatesChatUpdatesImpl>
-    implements _$$DyteChatStatesChatUpdatesImplCopyWith<$Res> {
-  __$$DyteChatStatesChatUpdatesImplCopyWithImpl(
-      _$DyteChatStatesChatUpdatesImpl _value,
-      $Res Function(_$DyteChatStatesChatUpdatesImpl) _then)
+class __$$RealtimeKitChatStatesChatUpdatesImplCopyWithImpl<$Res>
+    extends _$RealtimeKitChatStatesCopyWithImpl<$Res, _$RealtimeKitChatStatesChatUpdatesImpl>
+    implements _$$RealtimeKitChatStatesChatUpdatesImplCopyWith<$Res> {
+  __$$RealtimeKitChatStatesChatUpdatesImplCopyWithImpl(
+      _$RealtimeKitChatStatesChatUpdatesImpl _value,
+      $Res Function(_$RealtimeKitChatStatesChatUpdatesImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of DyteChatStates
+  /// Create a copy of RealtimeKitChatStates
   /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? messages = null,
   }) {
-    return _then(_$DyteChatStatesChatUpdatesImpl(
+    return _then(_$RealtimeKitChatStatesChatUpdatesImpl(
       null == messages
           ? _value._messages
           : messages // ignore: cast_nullable_to_non_nullable
@@ -380,8 +380,8 @@ class __$$DyteChatStatesChatUpdatesImplCopyWithImpl<$Res>
 
 /// @nodoc
 
-class _$DyteChatStatesChatUpdatesImpl implements _DyteChatStatesChatUpdates {
-  const _$DyteChatStatesChatUpdatesImpl(final List<ChatMessage> messages)
+class _$RealtimeKitChatStatesChatUpdatesImpl implements _RealtimeKitChatStatesChatUpdates {
+  const _$RealtimeKitChatStatesChatUpdatesImpl(final List<ChatMessage> messages)
       : _messages = messages;
 
   final List<ChatMessage> _messages;
@@ -394,14 +394,14 @@ class _$DyteChatStatesChatUpdatesImpl implements _DyteChatStatesChatUpdates {
 
   @override
   String toString() {
-    return 'DyteChatStates.onChatUpdates(messages: $messages)';
+    return 'RealtimeKitChatStates.onChatUpdates(messages: $messages)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$DyteChatStatesChatUpdatesImpl &&
+            other is _$RealtimeKitChatStatesChatUpdatesImpl &&
             const DeepCollectionEquality().equals(other._messages, _messages));
   }
 
@@ -409,14 +409,14 @@ class _$DyteChatStatesChatUpdatesImpl implements _DyteChatStatesChatUpdates {
   int get hashCode =>
       Object.hash(runtimeType, const DeepCollectionEquality().hash(_messages));
 
-  /// Create a copy of DyteChatStates
+  /// Create a copy of RealtimeKitChatStates
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   @pragma('vm:prefer-inline')
-  _$$DyteChatStatesChatUpdatesImplCopyWith<_$DyteChatStatesChatUpdatesImpl>
-      get copyWith => __$$DyteChatStatesChatUpdatesImplCopyWithImpl<
-          _$DyteChatStatesChatUpdatesImpl>(this, _$identity);
+  _$$RealtimeKitChatStatesChatUpdatesImplCopyWith<_$RealtimeKitChatStatesChatUpdatesImpl>
+      get copyWith => __$$RealtimeKitChatStatesChatUpdatesImplCopyWithImpl<
+          _$RealtimeKitChatStatesChatUpdatesImpl>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -455,9 +455,9 @@ class _$DyteChatStatesChatUpdatesImpl implements _DyteChatStatesChatUpdates {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
-    required TResult Function(_DyteChatStates value) initial,
-    required TResult Function(_DyteChatStatesNewChat value) onNewChatUpdate,
-    required TResult Function(_DyteChatStatesChatUpdates value) onChatUpdates,
+    required TResult Function(_RealtimeKitChatStates value) initial,
+    required TResult Function(_RealtimeKitChatStatesNewChat value) onNewChatUpdate,
+    required TResult Function(_RealtimeKitChatStatesChatUpdates value) onChatUpdates,
   }) {
     return onChatUpdates(this);
   }
@@ -465,9 +465,9 @@ class _$DyteChatStatesChatUpdatesImpl implements _DyteChatStatesChatUpdates {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(_DyteChatStates value)? initial,
-    TResult? Function(_DyteChatStatesNewChat value)? onNewChatUpdate,
-    TResult? Function(_DyteChatStatesChatUpdates value)? onChatUpdates,
+    TResult? Function(_RealtimeKitChatStates value)? initial,
+    TResult? Function(_RealtimeKitChatStatesNewChat value)? onNewChatUpdate,
+    TResult? Function(_RealtimeKitChatStatesChatUpdates value)? onChatUpdates,
   }) {
     return onChatUpdates?.call(this);
   }
@@ -475,9 +475,9 @@ class _$DyteChatStatesChatUpdatesImpl implements _DyteChatStatesChatUpdates {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
-    TResult Function(_DyteChatStates value)? initial,
-    TResult Function(_DyteChatStatesNewChat value)? onNewChatUpdate,
-    TResult Function(_DyteChatStatesChatUpdates value)? onChatUpdates,
+    TResult Function(_RealtimeKitChatStates value)? initial,
+    TResult Function(_RealtimeKitChatStatesNewChat value)? onNewChatUpdate,
+    TResult Function(_RealtimeKitChatStatesChatUpdates value)? onChatUpdates,
     required TResult orElse(),
   }) {
     if (onChatUpdates != null) {
@@ -487,15 +487,15 @@ class _$DyteChatStatesChatUpdatesImpl implements _DyteChatStatesChatUpdates {
   }
 }
 
-abstract class _DyteChatStatesChatUpdates implements DyteChatStates {
-  const factory _DyteChatStatesChatUpdates(final List<ChatMessage> messages) =
-      _$DyteChatStatesChatUpdatesImpl;
+abstract class _RealtimeKitChatStatesChatUpdates implements RealtimeKitChatStates {
+  const factory _RealtimeKitChatStatesChatUpdates(final List<ChatMessage> messages) =
+      _$RealtimeKitChatStatesChatUpdatesImpl;
 
   List<ChatMessage> get messages;
 
-  /// Create a copy of DyteChatStates
+  /// Create a copy of RealtimeKitChatStates
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
-  _$$DyteChatStatesChatUpdatesImplCopyWith<_$DyteChatStatesChatUpdatesImpl>
+  _$$RealtimeKitChatStatesChatUpdatesImplCopyWith<_$RealtimeKitChatStatesChatUpdatesImpl>
       get copyWith => throw _privateConstructorUsedError;
 }

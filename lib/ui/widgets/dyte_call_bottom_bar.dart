@@ -4,15 +4,15 @@ import 'package:realtimekit_demo/notifiers/states/local_user_states.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class DyteCallBottomBar extends ConsumerStatefulWidget {
-  const DyteCallBottomBar({Key? key}) : super(key: key);
+class RealtimeKitCallBottomBar extends ConsumerStatefulWidget {
+  const RealtimeKitCallBottomBar({Key? key}) : super(key: key);
 
   @override
   ConsumerState<ConsumerStatefulWidget> createState() =>
-      _DyteCallBottomBarState();
+      _RealtimeKitCallBottomBarState();
 }
 
-class _DyteCallBottomBarState extends ConsumerState<DyteCallBottomBar> {
+class _RealtimeKitCallBottomBarState extends ConsumerState<RealtimeKitCallBottomBar> {
   @override
   Widget build(BuildContext context) {
     // final hostPermissions = ref.watch(dyteClient).permissions;

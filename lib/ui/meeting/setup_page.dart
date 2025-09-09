@@ -31,13 +31,13 @@ class SetupPage extends StatelessWidget {
   }
 }
 
-class DyteMeetingRoom extends StatelessWidget {
-  const DyteMeetingRoom({super.key});
+class RealtimeKitMeetingRoom extends StatelessWidget {
+  const RealtimeKitMeetingRoom({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      bottomNavigationBar: DyteCallBottomBar(),
+      bottomNavigationBar: RealtimeKitCallBottomBar(),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
