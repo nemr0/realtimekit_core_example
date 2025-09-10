@@ -41,7 +41,7 @@ final participantEventNotifier =
 );
 
 final pinUnpinProvider =
-    NotifierProvider<PinNotifier, RtkMeetingParticipant?>(PinNotifier.new);
+    NotifierProvider<PinNotifier, RtkRemoteParticipant?>(PinNotifier.new);
 
 final screenshareProvider =
     NotifierProvider<ScreenshareNotifier, List<RtkMeetingParticipant>>(

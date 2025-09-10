@@ -31,68 +31,26 @@ class _HomePageState extends ConsumerState<HomePage> {
     }
     super.initState();
   }
-
+  @override
+  void dispose() {
+    dyteMobileClient.release();
+     super.dispose();
+  }
   @override
   Widget build(BuildContext context) {
     listenToAllListeners(ref);
-    ref.listen(routerNotifier, (previous, next) {
-      switch (next.runtimeType) {
-        case OnRouterMeetingInitStarted:
-          Navigator.push(context,
-              MaterialPageRoute(builder: (context) => const LoadingScreen()));
-          break;
-        case OnRouterMeetingInitCompleted:
-          Navigator.push(context,
-              MaterialPageRoute(builder: (context) => const SetupPage()));
-          break;
-        case OnRouterMeetingInitFailed:
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) =>
-                  ExceptionPage((next as OnRouterMeetingInitFailed).error),
-            ),
-          );
-          break;
-        case OnRouterMeetingRoomJoinStarted:
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => const LoadingScreen(),
-            ),
-          );
-          break;
-        case OnRouterMeetingRoomJoinCompleted:
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => const RealtimeKitMeetingRoom(),
-            ),
-          );
-          break;
+    final routerState = ref.watch(routerNotifier);
+    return switch(routerState){
+    OnRouterMeetingInitStarted _ || OnRouterMeetingRoomJoinStarted _ =>LoadingScreen(),
+    OnRouterMeetingInitCompleted _ => SetupPage(),
+    OnRouterMeetingRoomJoinCompleted _ => const RealtimeKitMeetingRoom(),
+    OnRouterMeetingInitFailed _ || OnRouterMeetingRoomJoinFailed _ => ExceptionPage(Exception(routerState.toString())),
+      RouterStates _ => Scaffold(
+        appBar: const RealtimeKitAppBar(),
+        body: Center(child: _meetingDetails()),
+      ),
+    };
 
-        case OnRouterMeetingRoomJoinFailed:
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) =>
-                  ExceptionPage((next as OnRouterMeetingRoomJoinFailed).error),
-            ),
-          );
-          break;
-        case OnRouterMeetingRoomLeaveCompleted:
-          Navigator.of(context, rootNavigator: true)
-              .popUntil((route) => route.isFirst);
-          break;
-
-        default:
-          break;
-      }
-    });
-    return Scaffold(
-      appBar: const RealtimeKitAppBar(),
-      body: Center(child: _meetingDetails()),
-    );
   }
 
   Widget _meetingDetails() {
@@ -103,8 +61,13 @@ class _HomePageState extends ConsumerState<HomePage> {
             RtkMeetingInfo(
               baseDomain: 'realtime.cloudflare.com',
               authToken: MeetingConfig.authToken,
+              enableVideo: true
             ),
+            onError: (rtkError){
+              print(rtkError?.message);
+            }
           );
+          // print(dyteMobileClient.meta.);
         },
         minWidth: 180,
         height: 45,

@@ -21,6 +21,7 @@ class RouterNotifier extends Notifier<RouterStates>
 
   @override
   void onMeetingInitFailed(Exception exception) {
+    print(exception.toString());
     state = OnRouterMeetingInitFailed(exception);
   }
 
@@ -36,6 +37,7 @@ class RouterNotifier extends Notifier<RouterStates>
 
   @override
   void onMeetingRoomJoinFailed(Exception exception) {
+    print(exception.toString());
     state = OnRouterMeetingRoomJoinFailed(exception);
   }
 
